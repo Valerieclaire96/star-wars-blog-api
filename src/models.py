@@ -42,7 +42,6 @@ class Character(db.Model):
             "id": self.id,
             "name": self.name,
             "description": self.description
-            # do not serialize the password, its a security breach
         }
 
 
@@ -57,5 +56,4 @@ class Planets(db.Model):
             "id": self.id,
             "name": self.name,
             "description": self.description
-            # do not serialize the password, its a security breach
         }
